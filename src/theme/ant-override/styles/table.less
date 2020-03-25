@@ -1,0 +1,54 @@
+html {
+    .ant-table {
+        border-radius: 0;
+        font-size: 12px;
+        .ant-table-thead > tr > th,
+        .ant-table-tbody > tr > td {
+            height: 36px;
+            padding: 0 8px;
+        }
+        .ant-table-thead {
+            font-size: 12px;
+            > tr {
+                > th {
+                    border-top: 1px solid #e5e5e5;
+                    border-bottom: 1px solid #e5e5e5;
+                    background: #fafafa;
+                }
+            }
+        }
+        .ant-table-tbody {
+            font-size: 12px;
+            > tr {
+                > th {
+                    border-top: 1px solid #e5e5e5;
+                    border-bottom: 1px solid #e5e5e5;
+                    background: #fafafa;
+                }
+            }
+        }
+
+        .ant-table-tbody > tr.table-list-active:hover {
+            background-color: #dbeafd;
+        }
+        .ant-table-scroll {
+            .ant-table-header {
+                border-radius: 0;
+                margin: 0 !important;
+                overflow: hidden !important;
+                > table {
+                    border: 0;
+                    border-radius: 0;
+                    padding: 0;
+                }
+            }
+            .ant-table-body {
+                overflow-x: hidden;
+                > table {
+                    padding: 0;
+                    width: calc(~'100% + 10px');
+                }
+            }
+        }
+    }
+}

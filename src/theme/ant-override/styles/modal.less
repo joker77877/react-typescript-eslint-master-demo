@@ -1,0 +1,87 @@
+html {
+    //antd Modal 样式覆盖
+    .ant-modal-body {
+        user-select: none;
+    }
+    .ant-modal-mask {
+        z-index: 998;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .ant-modal-wrap {
+        z-index: 998;
+    }
+    .ant-modal-content {
+        border-radius: 2px;
+    }
+    .ant-modal-header {
+        padding: 8px;
+    }
+    .ant-modal-title {
+        line-height: 24px;
+    }
+    .ant-modal-close {
+        top: -4px;
+        right: 18px;
+    }
+    .ant-modal-close-x {
+        width: 16px;
+        height: 16px;
+        font-size: 16px;
+    }
+
+    //Modal提示
+    .ant-confirm .ant-modal-body {
+        padding: 40px 24px 24px 40px;
+    }
+    .ant-confirm-body > .anticon {
+        font-size: 0;
+        padding: 0;
+        top: 0;
+        margin-right: 16px;
+        width: 40px;
+        height: 40px;
+
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .ant-confirm-body .ant-confirm-title {
+        position: relative;
+        top: 13px;
+        color: #4a4a4a;
+        line-height: 24px;
+    }
+
+    .ant-confirm-body .ant-confirm-content {
+        margin-left: 56px;
+        color: #4c4c4c;
+        line-height: 20px;
+        margin-top: -16px;
+    }
+
+    .ant-confirm-info .ant-confirm-body > .anticon {
+        background-image: url(../images/info-o.png);
+    }
+    .ant-confirm-success .ant-confirm-body > .anticon {
+        background-image: url(../images/success-o.png);
+    }
+    .ant-confirm-error .ant-confirm-body > .anticon {
+        background-image: url(../images/error-o.png);
+    }
+    .ant-confirm-warning .ant-confirm-body > .anticon {
+        background-image: url(../images/warning-t.png);
+    }
+    .ant-confirm-confirm .ant-confirm-body > .anticon {
+        background-image: url(../images/confirm-o.png);
+    }
+}
+
+.ant-modal-body .ant-modal-footer {
+    margin: 0 -16px -16px;
+}
+
+.ie8 {
+    .ant-modal-mask {
+        background-color: #000;
+    }
+}

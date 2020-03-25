@@ -1,0 +1,133 @@
+.pagination {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+    .ant-select-selection--single {
+        .ant-select-selection__rendered {
+            line-height: 24px;
+        }
+    }
+    .ant-select-selection-selected-value {
+        line-height: 26px;
+    }
+    &.pagination-default {
+        .pagination-left {
+            float: left;
+            margin-left: 56px;
+            span {
+                display: inline-block;
+            }
+        }
+        .pagination-size-changer {
+            display: inline-block;
+            margin-left: 16px;
+            .ant-select {
+                width: 72px;
+                height: 28px;
+            }
+            .ant-select-selection {
+                height: 28px;
+                width: 72px;
+            }
+            .pagination-size-changer-text1 {
+                margin-right: 8px;
+            }
+            .pagination-size-changer-text2 {
+                margin-left: 8px;
+            }
+        }
+        .pagination-right {
+            float: right;
+            margin-right: 56px;
+            span {
+                display: inline-block;
+            }
+            .pagination-right-text1 {
+                margin-right: 8px;
+            }
+            .pagination-right-text2 {
+                margin-right: 8px;
+                margin-left: 8px;
+            }
+            .ant-input-number {
+                width: 72px;
+                height: 28px;
+                line-height: 28px;
+                margin-top: -4px;
+            }
+            .pagination-btn-jump {
+                margin-top: -4px;
+            }
+            .ant-input-number-input-wrap {
+                height: 28px;
+                .ant-input-number-input {
+                    height: 28px;
+                }
+            }
+            .ant-input-number-handler-wrap {
+                display: none;
+            }
+        }
+        .pagination-btn-jump {
+            height: 28px;
+        }
+        .ant-pagination {
+            float: right;
+            margin-top: 10px;
+            margin-right: 16px;
+            .anticon {
+                padding: 7px;
+            }
+            .ant-pagination-disabled {
+                .anticon {
+                    padding: 7px;
+                }
+            }
+            .ant-pagination-total-text {
+                display: none;
+            }
+            .ant-pagination-options {
+                display: none;
+            }
+            .ant-pagination-item {
+                border-radius: 2px;
+                min-width: 28px;
+                height: 28px;
+                line-height: 28px;
+                &:hover {
+                    border-color: #2080f7;
+                }
+            }
+            .ant-pagination-prev,
+            .ant-pagination-jump-next,
+            .ant-pagination-jump-prev,
+            .ant-pagination-next {
+                min-width: 28px;
+                height: 28px;
+                border-radius: 2px;
+            }
+            .ant-pagination-item-active {
+                background-color: #2080f7;
+                border-color: #2080f7;
+                > a {
+                    color: #fff;
+                }
+            }
+        }
+        .pagination-simple {
+            display: inline-block;
+            margin-right: 4px;
+            border-radius: 2px;
+            border: 1px solid #d9d9d9;
+            line-height: 28px;
+            padding: 0 5px;
+            &:hover {
+                border-color: #2080f7;
+            }
+        }
+        .current-page {
+            padding: 0 10px;
+        }
+    }
+}

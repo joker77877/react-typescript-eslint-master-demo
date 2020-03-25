@@ -1,0 +1,8 @@
+.tree-search {
+    position: absolute;
+    z-index: 2000;
+    right: -20px;
+    top: 37px;
+    cursor: pointer;
+    font-size: 16px;
+}

@@ -1,0 +1,145 @@
+
+.func-button-outer{
+    width: 120px;
+    height: 36px;
+    padding: 3px;
+    background: rgba(14, 21, 39, 0.09);
+    border: 0.5px solid #012A4D;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    color: #7DD7EA;
+    .func-button {
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: rgba(1, 16, 32, 0.4);
+        text-rendering: auto;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        font-family: PingFangSC-Regular;
+        font-size: inherit;
+        color: #87CEFD;
+        letter-spacing: 0;
+        text-align: center;
+        transition: background, 0.3s;
+        .func-button-before {
+            position: absolute;
+            left: 0;
+            top: 1px;
+            border: 0;
+            margin-left: -1px;
+            width: 23.5%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(0, 127, 229, 0.3), rgba(255, 255, 255, 0) 100%);
+            .func-button-b-line {
+                margin: 1px 0;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 2px;
+                height: 90%;
+                background: rgba(111, 188, 212, 0.7);
+                box-shadow: 2px 0 3px 1px #0A2E64, inset 1px 0 1px 0 #074C84;
+            }
+        }
+        .func-button-after {
+            position: absolute;
+            right: 0;
+            top: 1px;
+            margin-left: 1px;
+            width: 23.5%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 127, 229, 0.3) 100%);
+            .func-button-a-line {
+                margin: 1px 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 2px;
+                height: 90%;
+                background: rgba(111, 188, 212, 0.7);
+                box-shadow: -1px 0 3px 1px #074C84, inset 1px 0 1px 0 #0A2E64;
+            }
+        }
+        &:hover{
+            background: rgba(9, 84, 163, 0.4);
+            background-image: none;
+            color: #E0F1FF;
+        }
+    }
+}
+.func-button-outer-primary {
+    background: rgba(14, 21, 39, 0.09);
+    border: 0.5px solid #012A4D;
+    .func-button-primary {
+        border: 1px solid #008CFF;
+        background: rgba(1, 16, 32, 0.4);
+        .func-button-before-primary {
+            background: linear-gradient(to right, rgba(0, 127, 229, 0.3), rgba(255, 255, 255, 0) 100%);
+            .func-button-b-line-primary {
+                background: rgba(111, 188, 212, 0.7);
+                box-shadow: 2px 0 3px 1px #0A2E64, inset 1px 0 1px 0 #074C84;
+            }
+        }
+        .func-button-after-primary {
+            background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 127, 229, 0.3) 100%);
+            .func-button-a-line-primary {
+                margin: 1px 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 2px;
+                height: 90%;
+                background: rgba(111, 188, 212, 0.7);
+                box-shadow: -1px 0 3px 1px #074C84, inset 1px 0 1px 0 #0A2E64;
+            }
+        }
+        &:hover{
+            background: rgba(9, 84, 163, 0.4);
+            background-image: none;
+            color: #E0F1FF;
+        }
+    }
+}
+.func-button-outer-secondary {
+    background: rgba(255, 115, 0, 0.09);
+    border: 0.5px solid rgba(139, 46, 0, 0.15);
+    .func-button-secondary {
+        background: rgba(40, 17, 5, 0.49);
+        border: 1px solid #FF5400;
+        color: #FFBD90;
+        .func-button-before-secondary {
+            background: linear-gradient(to right, rgba(199, 70, 0, 0.3), rgba(35, 16, 4, 0) 100%);
+            .func-button-b-line-secondary {
+                opacity: 0.7;
+                background: #FFC5A3;
+                box-shadow: 2px 0 3px 1px #9F532D, inset 1px 0 1px 0 #773616;
+            }
+        }
+        .func-button-after-secondary {
+            background: linear-gradient(to right, rgba(35, 16, 4, 0), rgba(199, 70, 0, 0.3) 100%);
+            .func-button-a-line-secondary {
+                opacity: 0.7;
+                background: #FFC5A3;
+                box-shadow: -1px 0 3px 1px #9F532D, inset 1px 0 1px 0 #773616;
+            }
+        }
+        &:hover{
+            border: 1px solid #FF5400;
+            background-image: none;
+            background: rgba(106, 40, 5, 0.9);
+            color: #FFF5E3;
+        }
+
+    }
+}
+
+
+

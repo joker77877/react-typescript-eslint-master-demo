@@ -1,0 +1,58 @@
+{
+    "eslintIntegration": true,
+    "printWidth": 150,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "semi": true,
+    "useTabs": false,
+    "jsxSingleQuote": false,
+    "jsxBracketSameLine": false,
+    "quoteProps": "as-needed",
+    "arrowParens": "avoid",
+    "parser": "typescript",
+    "overrides": [
+        {
+            "files": [
+                ".eslintrc.js",
+                "stylelint.config.js",
+                "prettier.config.js"
+            ],
+            "options": {
+                "parser": "babel",
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": [
+                ".babelrc",
+                ".prettierrc"
+            ],
+            "options": {
+                "parser": "json",
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": [
+                "*.md",
+                "*.markdown"
+            ],
+            "options": {
+                "parser": "markdown"
+            }
+        },
+        {
+            "files": [
+                "*.css",
+                "*.scss",
+                "*.less"
+            ],
+            "options": {
+                "parser": "css",
+                "tabWidth": 4
+            }
+        }
+    ]
+}

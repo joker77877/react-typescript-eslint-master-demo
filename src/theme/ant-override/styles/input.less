@@ -1,0 +1,69 @@
+html {
+//.default-antd {
+    //antd Input 样式覆盖
+    .ant-input,
+    .ant-input-lg {
+        padding: 6px 8px;
+        height: 32px;
+        resize: none;
+        font-size: 12px;
+        border-radius: 2px;
+        color: #4d4d4d;
+        border-color: #e6e6e6;
+        &:hover {
+            border-color: #2080f7;
+            box-shadow: none;
+        }
+        &:focus {
+            box-shadow: none;
+            border-color: #2080f7;
+        }
+    }
+
+    .has-success {
+        .ant-input {
+            border-radius: 2px;
+            color: #4d4d4d;
+            border-color: #e6e6e6;
+            &:hover {
+                border-color: #2080f7;
+                box-shadow: none;
+            }
+            &:focus {
+                box-shadow: none;
+                border-color: #2080f7;
+            }
+        }
+    }
+
+    .has-error {
+        .ant-input {
+            box-shadow: none;
+            &:hover {
+                box-shadow: none;
+                border-color: #fe5332;
+            }
+            &:focus {
+                box-shadow: none;
+                border-color: #fe5332;
+            }
+        }
+    }
+
+    .ant-input-group-addon {
+        border-radius: 2px;
+        background-color: #fff;
+    }
+
+    .ant-search-input.ant-input-group .ant-input:first-child,
+    .ant-search-input.ant-input-group .ant-select:first-child {
+        border-radius: 2px;
+    }
+    :placeholder {
+        font-size: 12px;
+    }
+    ::-webkit-input-placeholder {
+        /* WebKit browsers */
+        font-size: 12px;
+    }
+}

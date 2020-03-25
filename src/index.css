@@ -1,0 +1,10 @@
+#app {
+    height: 100%;
+}
+.app {
+    &-link {
+        > a {
+            margin: 10px;
+        }
+    }
+}

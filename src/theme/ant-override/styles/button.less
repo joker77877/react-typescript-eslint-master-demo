@@ -1,0 +1,171 @@
+html {
+    .ant-btn,
+    .ant-btn-lg {
+        border-radius: 2px;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 20px;
+        padding: 5px 23px;
+    }
+
+    .ant-btn-sm {
+        padding: 1px 7px;
+    }
+
+    .ant-btn,
+    .ant-btn-ghost {
+        color: #4d4d4d;
+        border-color: #e5e5e5;
+        background-color: #fff;
+        &:hover {
+            color: #4d4d4d;
+            border-color: #e5e5e5;
+            background-color: #f5f5f5;
+        }
+        &.ant-btn-clicked {
+            background-color: #e5e5e5;
+        }
+        &[disabled],
+        &[disabled]:hover {
+            color: #ccc;
+            border-color: #e5e5e5;
+            background-color: #f5f5f5;
+        }
+    }
+
+    .ant-btn-primary {
+        color: #fff;
+        border-color: #2080f7;
+        background-color: #2080f7;
+        &:hover {
+            color: #fff;
+            border-color: #368df8;
+            background-color: #368df8;
+        }
+        &.ant-btn-clicked {
+            background-color: #1d73de;
+        }
+        &[disabled],
+        &[disabled]:hover {
+            color: #fff;
+            border-color: #90c0fb;
+            background-color: #90c0fb;
+        }
+    }
+
+    .ant-btn-red {
+        color: #fff;
+        border-color: #fe5332;
+        background-color: #fe5332;
+        &:hover {
+            color: #fff;
+            border-color: #fe6447;
+            background-color: #fe6447;
+        }
+        &.ant-btn-clicked {
+            background-color: #e54b2d;
+        }
+        &[disabled],
+        &[disabled]:hover {
+            color: #fff;
+            border-color: #ffa999;
+            background-color: #ffa999;
+        }
+    }
+
+    .ant-btn-green {
+        color: #fff;
+        border-color: #3acd8d;
+        background-color: #3acd8d;
+        &:hover {
+            color: #fff;
+            border-color: #4ed298;
+            background-color: #4ed298;
+        }
+        &.ant-btn-clicked {
+            background-color: #34b97e;
+        }
+        &[disabled],
+        &[disabled]:hover {
+            color: #fff;
+            border-color: #9de6c6;
+            background-color: #9de6c6;
+        }
+    }
+
+    .ant-btn-orange {
+        color: #fff;
+        border-color: #ff942c;
+        background-color: #ff942c;
+        &:hover {
+            color: #fff;
+            border-color: #ffa041;
+            background-color: #ffa041;
+        }
+        &.ant-btn-clicked {
+            background-color: #e68628;
+        }
+        &[disabled],
+        &[disabled]:hover {
+            color: #fff;
+            border-color: #ffca96;
+            background-color: #ffca96;
+        }
+    }
+
+    .ant-btn-transparent {
+        border-color: transparent;
+        background-color: transparent;
+        &:hover {
+            color: #4d4d4d;
+            border-color: transparent;
+            background-color: #f5f5f5;
+        }
+        &.ant-btn-clicked {
+            background-color: #e5e5e5;
+        }
+        &[disabled],
+        &[disabled]:hover {
+            color: #ccc;
+            border-color: transparent;
+            background-color: transparent;
+        }
+    }
+
+    .ant-btn > .anticon,
+    .ant-btn > .icon {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .ant-btn > .anticon + span,
+    .ant-btn > span + .anticon,
+    .ant-btn > .icon + span,
+    .ant-btn > span + .icon {
+        margin-left: 8px;
+    }
+
+    .ant-btn-clicked:after {
+        display: none;
+    }
+
+    .ant-confirm .ant-confirm-btns button {
+        float: right;
+        & + button {
+            margin-left: 0;
+            margin-right: 10px;
+        }
+    }
+    /* confirm框确认 取消互换位置 (测试缺陷) */
+    .ant-modal-content .ant-modal-footer {
+        overflow: hidden;
+        button {
+            float: right;
+            width: 96px;
+            & + button {
+                margin-left: 0;
+                margin-right: 10px;
+            }
+        }
+    }
+}

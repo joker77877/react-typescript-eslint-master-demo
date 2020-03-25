@@ -1,0 +1,108 @@
+html {
+    //antd form 样式覆盖
+    .ant-form-item-control {
+        line-height: 32px;
+        height: 32px;
+    }
+
+    .ant-input-affix-wrapper {
+        .ant-input {
+            min-height: auto;
+        }
+    }
+    .ant-form-horizontal {
+        display: table;
+
+        margin: 0 auto;
+        .ant-form-item {
+            .ant-form-item {
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+        .ant-form-item-label,
+        .ant-form-item-label + div,
+        .ant-form-item-control-wrapper {
+            display: table-cell;
+
+            vertical-align: middle;
+        }
+        .ant-form-text {
+            display: block;
+        }
+        .ant-input-number {
+            margin: 0;
+        }
+    }
+    .ant-form-inline {
+        font-size: 12px;
+        .ant-btn {
+            top: 0px;
+            margin-left: 10px;
+        }
+        .ant-form-text {
+            vertical-align: middle;
+        }
+        .ant-form-item {
+            margin-right: 0;
+        }
+    }
+    .ant-form-text {
+        overflow: hidden;
+
+        padding: 0;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .ant-form-item-label label:after {
+        content: '';
+        margin: 0;
+    }
+
+    .ant-form-item-label {
+        padding: 0px 12px 0 0px;
+        label {
+            display: inline-block;
+            overflow: hidden;
+            font-size: 12px;
+            width: 72px;
+
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+            color: #4d4d4d;
+        }
+    }
+
+    .has-inline-form-item {
+        position: absolute;
+        top: 0;
+        right: 0;
+        &.has-right-item {
+            right: 110px;
+        }
+        .ant-form-item {
+            display: table-row !important;
+        }
+        .ant-form-item-label {
+            line-height: 1.5;
+        }
+    }
+    //antd 表单验证信息提示
+    div.has-error .ant-form-explain,
+    div.has-error .ant-form-split {
+        position: absolute;
+        z-index: 3;
+        top: 34px;
+        left: 0;
+        display: inline-block;
+        padding-right: 4px;
+        padding-left: 4px;
+        white-space: nowrap;
+        color: #fe5332;
+        border-radius: 4px;
+        background: transparent;
+    }
+}

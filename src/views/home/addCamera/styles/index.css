@@ -1,0 +1,51 @@
+.add-camera {
+    &-form {
+        width: 401px;
+        .ant-input {
+            width: 100%;
+        }
+        .ant-form-item-with-help {
+            margin-bottom: 24px;
+        }
+        .ant-form-item-label {
+            /* width: 46px; */
+            line-height: 32px;
+            label {
+                width: auto;
+            }
+        }
+        .dynamic-delete-button {
+            cursor: pointer;
+            position: relative;
+            top: 4px;
+            font-size: 24px;
+            color: #999;
+            transition: all 0.3s;
+            margin-left: 8px;
+            &:hover {
+                color: #777;
+            }
+        }
+        .dynamic-delete-button[disabled] {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+        &-standard {
+            .ant-form-item-control-wrapper {
+                padding-right: 32px;
+            }
+        }
+    }
+}
+.add-camera-modal {
+    .ant-modal-body {
+        padding: 40px 24px;
+        max-height: 584px;
+        overflow: auto;
+    }
+    .ant-modal-footer {
+        padding: 12px 16px;
+        background-color: #f5f5f5;
+        border: 0;
+    }
+}

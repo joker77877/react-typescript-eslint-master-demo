@@ -1,0 +1,44 @@
+:root {
+    --baseTextColor: #39eef9;
+    --baseTextColorNd: #BFDFFF;
+    --titleTextColor: #e3fffd;
+    --homeText: {
+        font-size: 12px;
+        color: #7f7f7f;
+        line-height: 20px;
+    }
+    --justifyContentSpaceBetween {
+        display: flex;
+        justify-content: space-between;
+    }
+    --justifyContentCenter {
+        display: flex;
+        justify-content: center;
+    }
+    --justifyContentSpaceAround {
+        display: flex;
+        justify-content: space-around;
+    }
+    --alignItemsCenter {
+        display: flex;
+        align-items: center;
+    }
+    --alignItemsFlexEnd {
+        display: flex;
+        align-items: flex-end;
+    }
+    --alignItemsBaseLine {
+        display: flex;
+        align-items: baseline;
+    }
+    --alignItemsJustifyContentCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    --alignItemsCenterJustifyContentSpaceBetween {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
